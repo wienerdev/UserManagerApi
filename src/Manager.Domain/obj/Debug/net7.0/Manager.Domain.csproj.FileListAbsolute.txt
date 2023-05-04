@@ -1,0 +1,15 @@
+C:\Dev\Workspace\Manager\src\Manager.Domain\bin\Debug\net7.0\Manager.Domain.deps.json
+C:\Dev\Workspace\Manager\src\Manager.Domain\bin\Debug\net7.0\Manager.Domain.dll
+C:\Dev\Workspace\Manager\src\Manager.Domain\bin\Debug\net7.0\Manager.Domain.pdb
+C:\Dev\Workspace\Manager\src\Manager.Domain\bin\Debug\net7.0\Manager.Core.dll
+C:\Dev\Workspace\Manager\src\Manager.Domain\bin\Debug\net7.0\Manager.Core.pdb
+C:\Dev\Workspace\Manager\src\Manager.Domain\obj\Debug\net7.0\Manager.Domain.csproj.AssemblyReference.cache
+C:\Dev\Workspace\Manager\src\Manager.Domain\obj\Debug\net7.0\Manager.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Workspace\Manager\src\Manager.Domain\obj\Debug\net7.0\Manager.Domain.AssemblyInfoInputs.cache
+C:\Dev\Workspace\Manager\src\Manager.Domain\obj\Debug\net7.0\Manager.Domain.AssemblyInfo.cs
+C:\Dev\Workspace\Manager\src\Manager.Domain\obj\Debug\net7.0\Manager.Domain.csproj.CoreCompileInputs.cache
+C:\Dev\Workspace\Manager\src\Manager.Domain\obj\Debug\net7.0\Manager.Domain.csproj.CopyComplete
+C:\Dev\Workspace\Manager\src\Manager.Domain\obj\Debug\net7.0\Manager.Domain.dll
+C:\Dev\Workspace\Manager\src\Manager.Domain\obj\Debug\net7.0\refint\Manager.Domain.dll
+C:\Dev\Workspace\Manager\src\Manager.Domain\obj\Debug\net7.0\Manager.Domain.pdb
+C:\Dev\Workspace\Manager\src\Manager.Domain\obj\Debug\net7.0\ref\Manager.Domain.dll

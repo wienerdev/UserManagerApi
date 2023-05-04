@@ -1,0 +1,12 @@
+C:\Dev\Workspace\Manager\src\Manager.Core\bin\Debug\net7.0\Manager.Core.deps.json
+C:\Dev\Workspace\Manager\src\Manager.Core\bin\Debug\net7.0\Manager.Core.dll
+C:\Dev\Workspace\Manager\src\Manager.Core\bin\Debug\net7.0\Manager.Core.pdb
+C:\Dev\Workspace\Manager\src\Manager.Core\obj\Debug\net7.0\Manager.Core.csproj.AssemblyReference.cache
+C:\Dev\Workspace\Manager\src\Manager.Core\obj\Debug\net7.0\Manager.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Workspace\Manager\src\Manager.Core\obj\Debug\net7.0\Manager.Core.AssemblyInfoInputs.cache
+C:\Dev\Workspace\Manager\src\Manager.Core\obj\Debug\net7.0\Manager.Core.AssemblyInfo.cs
+C:\Dev\Workspace\Manager\src\Manager.Core\obj\Debug\net7.0\Manager.Core.csproj.CoreCompileInputs.cache
+C:\Dev\Workspace\Manager\src\Manager.Core\obj\Debug\net7.0\Manager.Core.dll
+C:\Dev\Workspace\Manager\src\Manager.Core\obj\Debug\net7.0\refint\Manager.Core.dll
+C:\Dev\Workspace\Manager\src\Manager.Core\obj\Debug\net7.0\Manager.Core.pdb
+C:\Dev\Workspace\Manager\src\Manager.Core\obj\Debug\net7.0\ref\Manager.Core.dll
