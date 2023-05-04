@@ -80,3 +80,5 @@ C:\Dev\Workspace\Manager\src\Manager.Api\bin\Debug\net7.0\Manager.Service.pdb
 C:\Dev\Workspace\Manager\src\Manager.Api\bin\Debug\net7.0\Manager.Domain.pdb
 C:\Dev\Workspace\Manager\src\Manager.Api\bin\Debug\net7.0\Manager.Infra.pdb
 C:\Dev\Workspace\Manager\src\Manager.Api\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Dev\Workspace\Manager\src\Manager.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Dev\Workspace\Manager\src\Manager.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mhNJUV4iuKvlwVJln9iEiCOjpYHjXlcVhCLRgvY+Qj5Rm9R09BbiWK5EHW2hO+3ptsgSDHrOlVR63aDsEptCqw==",
+  "dgSpecHash": "8+rlewgYMf0VzGKPVUr4sHySEuLd+Q7zr5J7s96fFjqTV12cP0dzOqfdvVN0nI5fuq4P3INXatfM8W5aQMp3IQ==",
   "success": true,
   "projectFilePath": "C:\\Dev\\Workspace\\Manager\\src\\Manager.Api\\Manager.Api.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,8 @@
     "C:\\Users\\wiene\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\wiene\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\wiene\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
+    "C:\\Users\\wiene\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.5\\microsoft.aspnetcore.authentication.jwtbearer.7.0.5.nupkg.sha512",
+    "C:\\Users\\wiene\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\7.0.5\\microsoft.aspnetcore.authentication.openidconnect.7.0.5.nupkg.sha512",
     "C:\\Users\\wiene\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.5\\microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
     "C:\\Users\\wiene\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\wiene\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
