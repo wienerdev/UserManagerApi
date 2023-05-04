@@ -22,7 +22,7 @@ namespace Manager.Domain.Validators
                 .WithMessage("O nome deve ter no mínimo 3 caracteres.")
 
                 .MaximumLength(80)
-                .WithMessage("O nome deve ter no máximo 80 caracteres");
+                .WithMessage("O nome deve ter no máximo 80 caracteres.");
 
             RuleFor(x => x.Email)
                 .NotEmpty()
@@ -35,10 +35,10 @@ namespace Manager.Domain.Validators
                 .WithMessage("O email deve ter no mínimo 10 caracteres.")
 
                 .MaximumLength(180)
-                .WithMessage("O email deve ter no máximo 180 caracteres")
+                .WithMessage("O email deve ter no máximo 180 caracteres.")
 
                 .Matches(@"^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$")
-                .WithMessage("O email informado é invalido");
+                .WithMessage("O email informado é inválido.");
 
             RuleFor(x => x.Password)
                 .NotEmpty()
@@ -51,7 +51,7 @@ namespace Manager.Domain.Validators
                 .WithMessage("A senha deve ter no mínimo 6 caracteres.")
 
                 .MaximumLength(80)
-                .WithMessage("A senha deve ter no máximo 80 caracteres");
+                .WithMessage("A senha deve ter no máximo 80 caracteres.");
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using Manager.Core.Exceptions;
 using Manager.Domain.Entities;
-using Manager.Infra.Repositories;
+using Manager.Infra.Interfaces;
 using Manager.Service.DTO;
 using Manager.Service.Interfaces;
 
@@ -11,9 +11,9 @@ namespace Manager.Service.Services
     {
 
         private readonly IMapper _mapper;
-        private readonly UserRepository _userRepository;
+        private readonly IUserRepository _userRepository;
 
-        public UserService(IMapper mapper, UserRepository userRepository)
+        public UserService(IMapper mapper, IUserRepository userRepository)
         {
             _mapper = mapper;
             _userRepository = userRepository;

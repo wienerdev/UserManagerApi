@@ -1,5 +1,4 @@
 C:\Dev\Workspace\Manager\src\Manager.Infra\bin\Debug\net7.0\Manager.Infra.deps.json
-C:\Dev\Workspace\Manager\src\Manager.Infra\bin\Debug\net7.0\Manager.Infra.runtimeconfig.json
 C:\Dev\Workspace\Manager\src\Manager.Infra\bin\Debug\net7.0\Manager.Infra.dll
 C:\Dev\Workspace\Manager\src\Manager.Infra\bin\Debug\net7.0\Manager.Infra.pdb
 C:\Dev\Workspace\Manager\src\Manager.Infra\bin\Debug\net7.0\Manager.Core.dll
@@ -15,5 +14,4 @@ C:\Dev\Workspace\Manager\src\Manager.Infra\obj\Debug\net7.0\Manager.Infra.csproj
 C:\Dev\Workspace\Manager\src\Manager.Infra\obj\Debug\net7.0\Manager.Infra.dll
 C:\Dev\Workspace\Manager\src\Manager.Infra\obj\Debug\net7.0\refint\Manager.Infra.dll
 C:\Dev\Workspace\Manager\src\Manager.Infra\obj\Debug\net7.0\Manager.Infra.pdb
-C:\Dev\Workspace\Manager\src\Manager.Infra\obj\Debug\net7.0\Manager.Infra.genruntimeconfig.cache
 C:\Dev\Workspace\Manager\src\Manager.Infra\obj\Debug\net7.0\ref\Manager.Infra.dll

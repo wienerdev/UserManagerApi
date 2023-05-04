@@ -14,7 +14,7 @@
             _errors = errors;
         }
 
-        public DomainException(string message,  Exception innerException) : base(message, innerException) { }
+        public DomainException(string message, Exception innerException) : base(message, innerException) { }
 
     }
 }

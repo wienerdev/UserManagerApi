@@ -1,15 +1,34 @@
+using AutoMapper;
+using Manager.Api.ViewModels;
+using Manager.Domain.Entities;
+using Manager.Infra.Context;
+using Manager.Infra.Interfaces;
+using Manager.Infra.Repositories;
+using Manager.Service.DTO;
+using Manager.Service.Interfaces;
+using Manager.Service.Services;
+using Microsoft.Extensions.DependencyInjection;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+var autoMapperConfig = new MapperConfiguration(config =>
+{
+    config.CreateMap<User, UserDTO>().ReverseMap();
+    config.CreateMap<CreateUserViewModel, UserDTO>().ReverseMap();
+    config.CreateMap<UpdateUserViewModel, UserDTO>().ReverseMap();
+});
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddSingleton(autoMapperConfig.CreateMapper());
+builder.Services.AddDbContext<ManagerContext>();
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

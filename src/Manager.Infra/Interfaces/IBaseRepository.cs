@@ -2,7 +2,7 @@
 
 namespace Manager.Infra.Interfaces
 {
-    internal interface IBaseRepository<T> where T : Base
+    public interface IBaseRepository<T> where T : Base
     {
         Task<T> Create(T entity);
 
