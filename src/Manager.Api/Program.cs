@@ -9,6 +9,7 @@ using Manager.Service.DTO;
 using Manager.Service.Interfaces;
 using Manager.Service.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using System.Text;
@@ -29,7 +30,7 @@ builder.Services.AddAuthentication(x =>
     x.TokenValidationParameters = new TokenValidationParameters
     {
         ValidateIssuerSigningKey = true,
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes("19jsd92h9dcn2390")),
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(builder.Configuration["Jwt:Key"])),
         ValidateIssuer = false,
         ValidateAudience = false
     };
@@ -48,7 +49,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddSingleton(autoMapperConfig.CreateMapper());
-builder.Services.AddDbContext<ManagerContext>();
+builder.Services.AddDbContext<ManagerContext>(options => options.UseSqlServer(builder.Configuration["ConnectionStrings:UserManager"]), ServiceLifetime.Transient);
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<ITokenGenerator, TokenGenerator>();
@@ -95,11 +96,16 @@ builder.Services.AddSwaggerGen(c =>
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
+if (app.Environment.IsProduction())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    builder.Configuration.AddAzureKeyVault(
+            builder.Configuration["AzureKeyVault:Vault"],
+            builder.Configuration["AzureKeyVault:ClientId"],
+            builder.Configuration["AzureKeyVault:ClientSecret"]);
 }
+
+app.UseSwagger();
+app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 

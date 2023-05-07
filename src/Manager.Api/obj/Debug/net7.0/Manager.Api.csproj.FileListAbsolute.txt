@@ -82,3 +82,13 @@ C:\Dev\Workspace\Manager\src\Manager.Api\bin\Debug\net7.0\Manager.Infra.pdb
 C:\Dev\Workspace\Manager\src\Manager.Api\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Dev\Workspace\Manager\src\Manager.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Dev\Workspace\Manager\src\Manager.Api\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Dev\Workspace\Manager\src\Manager.Api\bin\Debug\net7.0\Azure.Security.KeyVault.Secrets.dll
+C:\Dev\Workspace\Manager\src\Manager.Api\bin\Debug\net7.0\Microsoft.Azure.KeyVault.dll
+C:\Dev\Workspace\Manager\src\Manager.Api\bin\Debug\net7.0\Microsoft.Azure.KeyVault.WebKey.dll
+C:\Dev\Workspace\Manager\src\Manager.Api\bin\Debug\net7.0\Microsoft.Azure.Services.AppAuthentication.dll
+C:\Dev\Workspace\Manager\src\Manager.Api\bin\Debug\net7.0\Microsoft.Extensions.Configuration.AzureKeyVault.dll
+C:\Dev\Workspace\Manager\src\Manager.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll
+C:\Dev\Workspace\Manager\src\Manager.Api\bin\Debug\net7.0\Microsoft.IdentityModel.Clients.ActiveDirectory.dll
+C:\Dev\Workspace\Manager\src\Manager.Api\bin\Debug\net7.0\Microsoft.Rest.ClientRuntime.dll
+C:\Dev\Workspace\Manager\src\Manager.Api\bin\Debug\net7.0\Microsoft.Rest.ClientRuntime.Azure.dll
+C:\Dev\Workspace\Manager\src\Manager.Api\bin\Debug\net7.0\Newtonsoft.Json.dll

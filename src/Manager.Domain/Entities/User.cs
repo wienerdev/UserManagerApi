@@ -15,11 +15,12 @@ namespace Manager.Domain.Entities
 
         public User(string name, string email, string password)
         {
+
             Name = name;
             Email = email;
             Password = password;
             _errors = new List<string>();
-
+            
             Validate();
         }
 
