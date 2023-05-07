@@ -1,11 +1,10 @@
-using Manager.Core.Exceptions;
+using Manager.Domain.Interfaces;
 using Manager.Domain.Validators;
 
 namespace Manager.Domain.Entities
 {
-    public class User : Base
+    public class User : Base, IAggregateRoot
     {
-
         public string Name { get; private set; }
         public string Email { get; private set; }
         public string Password { get; private set; }
@@ -24,40 +23,26 @@ namespace Manager.Domain.Entities
             Validate();
         }
 
-        public void ChangeName(string name)
+        public void SetName(string name)
         {
             Name = name;
             Validate();
         }
 
-        public void ChangeEmail(string email)
+        public void SetEmail(string email)
         {
             Email = email;
             Validate();
         }
 
-        public void ChangePassword(string password)
+        public void SetPassword(string password)
         {
             Password = password;
             Validate();
         }
 
-        public override bool Validate()
-        {
-            var validator = new UserValidator();
-            var validation = validator.Validate(this);
-
-            if (!validation.IsValid)
-            {
-                foreach (var error in validation.Errors)
-                {
-                    _errors.Add(error.ErrorMessage);
-                    throw new DomainException("Alguns campos estão inválidos.", _errors);
-                }
-            }
-
-            return true;
-        }
+        public bool Validate() =>
+            base.Validate<UserValidator, User>(new UserValidator(), this);
     }
 
 }

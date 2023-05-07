@@ -6,6 +6,7 @@ using Manager.Service.DTO;
 using Manager.Service.Interfaces;
 using Manager.Service.Services;
 using Manager.Tests.Configuration;
+using Manager.Tests.Fixtures;
 using Moq;
 
 namespace Manager.Tests.Projects.Services
@@ -33,7 +34,7 @@ namespace Manager.Tests.Projects.Services
         [Fact(DisplayName = "Create Valid User")]
         public async Task Create_WhenUserIsValid_ReturnsUserDTO()
         {
-            var user = new UserDTO { Email = "matheus@gmail.com", Name = "Matheus Wiener", Password = "123456" };
+            var user = UserFixture.createValidUserDTO("Matheus Wiener", "matheus@gmail.com", "123456");
             var userCreated = _mapper.Map<User>(user);
 
             _userRepoMock.Setup(x => x.GetByEmail(It.IsAny<string>()))
